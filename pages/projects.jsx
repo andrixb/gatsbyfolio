@@ -20,7 +20,6 @@ class SiteProjects extends React.Component {
             if (access(page, 'file.ext') === 'md' && access(page, 'data.layout') === 'project') {
                 const title = access(page, 'data.title') || page.path;
                 const description = access(page, 'data.description');
-                const datePublished = access(page, 'data.date');
                 const category = access(page, 'data.category');
                 const imgSrc = access(page, 'data.featured');
                 const path = access(page, 'data.path');
@@ -33,7 +32,7 @@ class SiteProjects extends React.Component {
                     </h2>
                     <Link className="projects__link" to={prefixLink(page.path)}>
                       <div className="projects__thumb">
-                          <img src={`${path}${imgSrc}`} />
+                        <img src={`${path}${imgSrc}`} />
                       </div>
                     </Link>
                   </div>

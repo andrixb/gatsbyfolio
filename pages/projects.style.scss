@@ -5,6 +5,7 @@ $cl: 'projects';
 .#{$cl} {
     &__container {
         margin: 280px 0 0 0;
+        padding: 0 $side-spacing;
         display: flex;
         flex-flow: column wrap;
 
@@ -15,6 +16,7 @@ $cl: 'projects';
         @media (min-width: $bp-tablet) {
             margin-top: 100px;
             flex-flow: row wrap;
+            justify-content: center;
         }
 
         @media (min-width: $bp-large) {
@@ -59,7 +61,7 @@ $cl: 'projects';
             flex: 1 0 25%;
             margin-top: 0;
             margin-bottom: $vertical-spacing;
-
+            max-width: 235px;
             &:first-child {
                 margin-top: 0;
             }
@@ -98,8 +100,9 @@ $cl: 'projects';
     }
 
     &__gallery {
+        width: 100%;
         display: flex;
-        flex-flow: column;
+        flex-flow: column wrap;
         justify-content: space-between;
 
         figure {

@@ -1,0 +1,17 @@
+@import '../../style/global.scss';
+$cl: 'page';
+
+.#{$cl} {
+    &__container {
+       padding: 0 $side-spacing;
+       margin-top: 230px;
+
+      @media (min-width: $bp-tablet) {
+          margin-top: 100px;
+       }
+    }
+
+    &__text {
+
+    }
+}

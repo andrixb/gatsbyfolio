@@ -1,18 +1,16 @@
 @import './vars/breakpoints';
 
 .container {
-    padding-right: $side-spacing;
-    padding-left: $side-spacing;
-    margin-right: auto;
-    margin-left: auto;
-    @media(min-width: $bp-tablet) {
-        width: 750px;
-    }
-    @media(min-width: $bp-large) {
-        width: 970px;
-    }
+    // padding-right: $side-spacing;
+    // padding-left: $side-spacing;
+    // @media(min-width: $bp-tablet) {
+    //     width: 750px;
+    // }
+    // @media(min-width: $bp-large) {
+    //     width: 970px;
+    // }
     @media(min-width: $bp-xlarge) {
-        width: 1170px;
+        max-width: 1170px;
     }
 }
 

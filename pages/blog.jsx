@@ -45,7 +45,9 @@ class SiteBlog extends React.Component {
             <SiteTop {...this.props} />
             <SiteSidebar {...this.props} />
             <div className="main__content">
-              {pageLinks}
+              <section className="blog__container">
+                {pageLinks}
+              </section>
             </div>
           </div>
         );

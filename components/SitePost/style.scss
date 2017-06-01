@@ -1,0 +1,19 @@
+@import '../../style/global.scss';
+$cl: 'post';
+
+.#{$cl} {
+    &__container {
+        padding: 0 $side-spacing;
+    }
+
+    &__text {
+      
+    }
+
+    &__content {
+        // position: absolute;
+        // top: 0;
+        // left: 0;
+    }
+
+}
