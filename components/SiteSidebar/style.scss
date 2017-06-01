@@ -1,0 +1,50 @@
+@import '../../style/global.scss';
+
+$cl: 'sidebar';
+
+.#{$cl} {
+    &__container {
+        position: fixed;
+        width: 250px;
+        top: 0;
+        bottom: 0;
+        left: -250px;
+        background-color: $grey-light;
+        box-shadow: $shadow-light;
+        display: none;
+
+        @media (min-width: $bp-large) {
+            display: flex;
+            flex-flow: column wrap;
+            height: 100vh;
+            left: 0;
+            box-shadow: none;
+            border-right: 1px solid $grey-medium;
+        }
+    }
+
+    &__inner {
+        margin: $vertical-spacing 0;
+    }
+
+    &__title {
+        margin-top: $vertical-spacing;
+        margin-bottom: -15px;
+        font-size: $fs-xlarge;
+        text-align: center;
+    }
+
+    &__description {
+        width: 250px;
+        padding: $side-spacing;
+        text-align: center;
+    }
+
+    &__footer {
+        margin-top: $vertical-spacing;
+
+        .copyright {
+            text-align: center;
+        }
+    }
+}

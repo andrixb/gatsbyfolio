@@ -1,0 +1,18 @@
+@import '../style/global.scss';
+
+$cl: 'blog';
+
+.#{$cl} {
+    &__post {
+        margin-bottom: $vertical-spacing;
+        padding-top: 10px;
+
+        h2 {
+            margin-top: 0;
+        }
+
+        @media (min-width: $bp-large) {
+            margin-top: $vertical-spacing;
+        }
+    }
+}

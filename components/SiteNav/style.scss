@@ -1,0 +1,42 @@
+@import '../../style/global.scss';
+$cl: 'sitenav';
+
+.#{$cl} {
+    &__nav {
+        ul {
+            list-style-type: none;
+            margin-bottom: $vertical-spacing/2;
+            padding: 0;
+            text-align: center;
+
+            @media (min-width: $bp-tablet) {
+                margin: 0;
+            }
+
+            li {
+                font-size: $fs-menu;
+                line-height: $lh-base*1.5;
+                display: inline-block;
+                margin-right: $side-spacing;
+                &:last-child {
+                    margin-right: 0;
+                }
+
+                @media (min-width:$bp-tablet) {
+                    &:last-child {
+                        margin-right: $side-spacing;
+                    }
+                }
+
+                @media (min-width: $bp-large) {
+                    display: block;
+                    margin-right: 0;
+                    
+                    &:last-child {
+                        margin-right: 0;
+                    }
+                }
+            }
+        }
+    }
+}

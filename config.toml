@@ -1,0 +1,14 @@
+siteTitle = "Portfolio by John Doe"
+siteDescr = "Quite a short sentence"
+siteAuthor = "John Doe"
+
+siteTelegramUrl = "#"
+siteTwitterUrl = "#"
+siteGithubUrl = "#"
+siteEmailUrl = "#"
+siteRssUrl = "#"
+siteVkUrl = "#"
+
+googleAnalyticsId = ""
+
+linkPrefix = "/gatsbyfolio"

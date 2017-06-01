@@ -1,0 +1,25 @@
+@import '../../style/global.scss';
+
+$cl: 'sitelinks';
+
+.#{$cl} {
+    &__links {
+        width: 100%;
+
+        @media (min-width: $bp-tablet) {
+            width: auto;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+
+            li {
+                display: inline;
+                margin: $side-spacing;
+            }
+        }
+    }
+}

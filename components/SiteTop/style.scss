@@ -1,0 +1,66 @@
+@import '../../style/global.scss';
+
+$cl: 'topbar';
+
+.#{$cl} {
+    &__container {
+        position: fixed;
+        width: 100%;
+        top: 0;
+        left: 0;
+        right: 0;
+        background-color: $grey-light;
+        box-shadow: $shadow-light;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+
+        @media (min-width: $bp-tablet) {
+            justify-content: space-around;
+        }
+
+        @media (min-width: $bp-large) {
+            display: none;
+        }
+    }
+
+    &__inner {
+        margin: 0 $side-spacing $vertical-spacing $side-spacing;
+        display: flex;
+        flex-flow: row wrap;
+        align-items: baseline;
+        justify-content: center;
+
+        @media (min-width: $bp-tablet) {
+            justify-content: space-between;
+            margin: $vertical-spacing $side-spacing;
+        }
+
+    }
+
+    &__title {
+        margin: $vertical-spacing/2 0 -15px $side-spacing;
+        text-align: center;
+        font-size: $fs-xlarge;
+    }
+
+    &__description {
+        width: 250px;
+        padding-top: $vertical-spacing;
+        margin: 0;
+        text-align: center;
+
+        @media (min-width: $bp-tablet) {
+            padding: $side-spacing;
+            // text-align: left;
+        }
+    }
+
+    &__footer {
+        margin-top: $vertical-spacing;
+
+        .copyright {
+            text-align: center;
+        }
+    }
+}

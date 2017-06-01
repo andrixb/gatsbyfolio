@@ -1,0 +1,35 @@
+@import './vars/breakpoints';
+
+.container {
+    padding-right: $side-spacing;
+    padding-left: $side-spacing;
+    margin-right: auto;
+    margin-left: auto;
+    @media(min-width: $bp-tablet) {
+        width: 750px;
+    }
+    @media(min-width: $bp-large) {
+        width: 970px;
+    }
+    @media(min-width: $bp-xlarge) {
+        width: 1170px;
+    }
+}
+
+.menu-open {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-flow: row wrap;
+    right: 0;
+    z-index: 1000;
+    // transition: right .3s ease-in-out;
+}
+
+.menu-close {
+    right: -100%;
+    // transition: right .3s ease-in-out;
+    @media(min-width: $bp-tablet) {
+        right: 0;
+    }
+}

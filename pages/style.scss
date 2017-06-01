@@ -1,0 +1,21 @@
+@import '../style/global.scss';
+$cl: 'main';
+
+.#{$cl} {
+    &__wrapper {
+        @media (min-width: $bp-large) {
+            // display:flex;
+        }
+    }
+
+    &__content {
+        margin: 0;
+        @media (min-width: $bp-large) {
+            margin-left: 250px;
+        }
+
+        @media (min-width: $bp-xmlarge) {
+            margin-left: 0;
+        }
+    }
+}
