@@ -2,10 +2,11 @@
 ## Features
 + Clean and extensible code.
 + Beautiful Typography ([matejlatin/Gutenberg](https://github.com/matejlatin/Gutenberg)).
++ Sass
 
 ## Installing
 Install this starter (assuming Gatsby is installed) by running from your CLI:
-`gatsby new lumen https://github.com/wpioneer/gatsby-starter-lumen`
+`gatsby new portfolio https://github.com/andrixb/gatsbyfolio`
 
 ## Running in development
 `gatsby develop`
@@ -15,7 +16,7 @@ Install this starter (assuming Gatsby is installed) by running from your CLI:
 ## License
 The MIT License (MIT)
 
-Copyright (c) 2016-2017 Alexander Shelepenok
+Copyright (c) 2017 Andrea Baldo
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
