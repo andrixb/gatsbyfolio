@@ -11,7 +11,11 @@ Install this starter (assuming Gatsby is installed) by running from your CLI:
 ## Running in development
 `gatsby develop`
 
-![](http://i.imgur.com/422y5GV.png)
+## Site Look
+[first](https://github.com/andrixb/gatsbyfolio/blob/master/docs/Screen%20Shot%202017-06-01%20at%2017.09.02.png?raw=true)
+[second](https://github.com/andrixb/gatsbyfolio/blob/master/docs/Screen%20Shot%202017-06-01%20at%2017.09.54.png?raw=true)
+[third](https://github.com/andrixb/gatsbyfolio/blob/master/docs/Screen%20Shot%202017-06-01%20at%2017.10.41.png)
+[fourth](https://github.com/andrixb/gatsbyfolio/blob/master/docs/Screen%20Shot%202017-06-01%20at%2017.10.53.png)
 
 ## License
 The MIT License (MIT)
